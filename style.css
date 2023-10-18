@@ -1,0 +1,121 @@
+.centered-list {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Pour centrer verticalement si nécessaire */
+    height: 50vh; /* Ajustez la hauteur au besoin */
+}
+
+
+.container { 
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container>* { 
+    margin: 0 10px;
+    flex: 1 1 200px;
+    width: 100%;
+}
+
+
+.test { 
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    flex: 1 1 200px;
+}
+
+.logo { 
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    flex: 1 1 200px;
+    height: 100px;
+}
+
+.skills {
+    text-align: right; /* Right-align text */
+    padding-top: 10px; /* Add top padding */
+    padding-bottom: 10px; /* Add bottom padding */
+    color: white; /* White text color */
+  }
+
+  .html {width: 90%; background-color: #2a086d;} /* Green */
+  .css {width: 80%; background-color: #15209e;} /* Blue */
+  .python {width: 60%; background-color: #1e66c5;} /* Dark Grey */
+
+
+
+
+.table-custom {
+    color: rgb(38, 3, 63) ; /* Changer la couleur du texte des lignes en rouge */
+}
+
+
+/* footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+    text-align: right;
+} */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:white; /* Remplacez cette couleur par celle de votre choix */
+    padding: 1px;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    }
+
+.mal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.left-links {
+    display: flex;
+    align-items: center;
+}
+
+.right-text {
+    text-align: right;
+    margin-right: 10px;
+}
+
+/* .photo {
+    margin-right: 10px;
+    text-align: right;
+} */
+
+.card-panel2 {
+    position: relative;
+}
+
+.photo {
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: right;
+    margin-top: 35px;
+    margin-right: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
